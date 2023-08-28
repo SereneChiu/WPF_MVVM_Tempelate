@@ -10,5 +10,6 @@ namespace ConfiguratorLibrary
     public interface IConfiguratorLibraryService
     {
         UserControl MainPage { get; }
+        bool LoadResult { get;}
     }
 }

@@ -7,9 +7,19 @@ using System.Windows.Controls;
 
 namespace ConfiguratorLibrary
 {
-    class ConfiguratorLibraryService : IConfiguratorLibraryService
+    public class ConfiguratorLibraryService : IConfiguratorLibraryService
     {
+        private bool mLoadResult = false;
         private UserControl1 mMainPage = new UserControl1();
-        public UserControl MainPage { get { return mMainPage; } }
+
+        public UserControl MainPage 
+        { 
+            get 
+            {
+                mLoadResult = true;
+                return mMainPage; 
+            } 
+        }
+        public bool LoadResult { get { return mLoadResult; } }
     }
 }

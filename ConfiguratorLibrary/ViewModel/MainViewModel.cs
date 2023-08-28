@@ -28,9 +28,9 @@ namespace ConfiguratorLibrary
             {
                 switch(value)
                 {
-                    case "Tpg": CurrentPageViewModel = mTpgPage; break;
-                    case "Param": CurrentPageViewModel = mParamPage; break;
-                    case "Monitor": CurrentPageViewModel = mMonitorPage; break;
+                    case "Page 1": CurrentPageViewModel = mTpgPage; break;
+                    case "Page 2": CurrentPageViewModel = mParamPage; break;
+                    case "Page 3": CurrentPageViewModel = mMonitorPage; break;
                     default: return;
                 }
             }
