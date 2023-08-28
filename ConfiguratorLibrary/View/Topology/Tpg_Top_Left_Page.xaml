@@ -1,0 +1,15 @@
+﻿<Page x:Class="ConfiguratorLibrary.View.Topology.Tpg_Top_Left_Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ConfiguratorLibrary.View.Topology"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="TpgTopLeftPage">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Text="Tpg_Top_Left_Page" TextWrapping="Wrap" VerticalAlignment="Center"/>
+
+    </Grid>
+</Page>
