@@ -35,4 +35,4 @@ jobs:
         run: msbuild.exe ConfiguratorLibrary.sln /p:platform="x64" /p:configuration="Release"
         
       - name: Run Tests
-        run: vstest.console.exe .\UnitTest\bin\Debug\UnitTest.dll
+        run: vstest.console.exe ..\UnitTest\bin\Debug\UnitTest.dll
